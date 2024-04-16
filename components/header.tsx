@@ -45,10 +45,10 @@ const Header = () => {
           </div>
         </form>
         <Button size={"icon"} className="rounded-full">
-          <MessageSquareText />
+          <MessageSquareText size={20} />
         </Button>
         <Button size={"icon"} className="rounded-full">
-          <BellDot />
+          <BellDot size={20} />
         </Button>
       </div>
     </header>

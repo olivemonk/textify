@@ -63,7 +63,7 @@ const SmallSidenavBar = () => {
             href="#"
             className="flex items-center gap-2 text-lg font-semibold"
           >
-            <BotIcon className="h-6 w-6 text-indigo-600" />
+            <BotIcon size={28} className="text-indigo-600" />
             <span className="sr-only">Textify</span>
           </Link>
           {routes.map((route, index) => (
